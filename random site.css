@@ -1,0 +1,30 @@
+body{
+    background-image:url("https://media.giphy.com/media/3owyoUjwoBZ3kK2jle/giphy.gif");
+}
+p{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace; 
+    
+}
+h1{
+    color:  blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color:orangered;
+}
+a:hover {
+    color: black;
+    background-color: greenyellow;
+    font-family: cursive;
+  }
+  a:link, a:active{
+    background-color: #e5ff00;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    display: inline-block;
+  }
