@@ -1,10 +1,10 @@
 body{
-    color: blue;
+    color: orangered;
     font-family: 'Courier New', Courier, monospace;
     background-image:url("https://i.gifer.com/7Pqs.gif")
 }
 head{
-    color: blue;
+    color: rgb(30, 255, 0);
     font-family: 'Courier New', Courier, monospace;
     background-image:url("https://media.giphy.com/media/3owyoUjwoBZ3kK2jle/giphy.gif")  
 }
