@@ -4,7 +4,10 @@ p{
     background-image:url("https://i.gifer.com/7Pqs.gif")
 }
 head{
-    color: rgb(30, 255, 0);
+    color: rgb(0, 255, 13);
     font-family: 'Courier New', Courier, monospace;
     background-image:url("https://media.giphy.com/media/3owyoUjwoBZ3kK2jle/giphy.gif")  
+}
+1{
+    color:rgb(255, 0, 0);
 }
