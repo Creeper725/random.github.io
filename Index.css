@@ -7,12 +7,8 @@ p{
     
 }
 h1{
-    color: #c0ffe;
+    color:  blue;
     font-family: 'Courier New', Courier, monospace;
-}
-hl:hover{
-    color: #C0BA78
-    font-family: 'Impact', Courier, monospace;
 }
 
 a{
