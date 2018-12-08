@@ -1,3 +1,17 @@
 head {
     background-image: url("https://i.imgur.com/I5PVI0Z.gif"); 
 }
+a:hover {
+    color: black;
+    background-color: greenyellow;
+    font-family: cursive;
+  }
+  a:link, a:active{
+    background-color: #e5ff00;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    display: inline-block;
+  }

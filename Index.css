@@ -6,8 +6,27 @@ p{
     font-family: 'Courier New', Courier, monospace; 
     
 }
-head{
+h1{
     color: rgb(0, 255, 13);
     font-family: 'Courier New', Courier, monospace;
      
 }
+a{
+    color:orangered;
+}
+a:hover {
+    color: black;
+    background-color: greenyellow;
+    font-family: cursive;
+  }
+  a:link, a:active{
+    background-color: #e5ff00;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    display: inline-block;
+  }
+
+  
