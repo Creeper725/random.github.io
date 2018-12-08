@@ -7,10 +7,14 @@ p{
     
 }
 h1{
-    color: rgb(0, 255, 13);
+    color: #c0ffe;
     font-family: 'Courier New', Courier, monospace;
-     
 }
+hl:hover{
+    color: #C0BA78
+    font-family: 'Impact', Courier, monospace;
+}
+
 a{
     color:orangered;
 }
