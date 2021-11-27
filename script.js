@@ -1,4 +1,3 @@
-// Background
 let wrapper = document.getElementById('wrapper');
 wrapper.addEventListener('mousemove', (event) => {
     let moveX = ((window.screen.width / 2) - event.pageX) * 0.02;
@@ -8,13 +7,4 @@ wrapper.addEventListener('mousemove', (event) => {
     background.style.marginTop = moveY + 'px';
 });
 
-// Particles
 particlesJS.load('particles', 'assets/particles.json');
-
-// Minecraft players status
-MinecraftAPI.getServerStatus(document.getElementById('server-ip').innerHTML, { port: 25565 }, (error, status) => {
-    if (error) {
-        return document.getElementById('server-status').innerHTML = 'Error Loading Status!';
-    }
-    document.getElementById('server-players').innerHTML = status.players.now;
-});
