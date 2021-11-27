@@ -37,7 +37,7 @@ body {
 
 .background {
     position: absolute;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('back.gif') no-repeat center center / cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('Back.gif') no-repeat center center / cover;
     width: 120%;
     height: 120%;
     z-index: -1;
