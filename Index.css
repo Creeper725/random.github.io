@@ -37,7 +37,7 @@ body {
 
 .background {
     position: absolute;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/2471303.gif") no-repeat center center / cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://wallpaperaccess.com/full/4474894.jpg') no-repeat center center / cover;
     width: 120%;
     height: 120%;
     z-index: -1;
@@ -71,7 +71,22 @@ body {
     }
 }
 
+.server-status {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
+
+.server-status i {
+    margin: 0 0.15rem;
+}
+
 .buttons {
     display: flex;
     align-items: center;
